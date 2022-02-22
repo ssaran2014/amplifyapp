@@ -14,7 +14,7 @@ function App({ signOut, user }) {
       <h1>Hello {user.username}</h1>
       <img src={logo} className="App-logo" alt="logo" />
       <h1>We now have Auth!</h1>
-      <h2>And it works!</h2>
+      <h2>Fourth try! And it works!</h2>
       <button onClick={signOut}>Sign Out</button>
     </div>
   );
